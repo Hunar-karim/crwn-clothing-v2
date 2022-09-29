@@ -11,16 +11,19 @@ import {
 } from 'firebase/auth';
 import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk',
-  authDomain: 'crwn-clothing-db-98d4d.firebaseapp.com',
-  projectId: 'crwn-clothing-db-98d4d',
-  storageBucket: 'crwn-clothing-db-98d4d.appspot.com',
-  messagingSenderId: '626766232035',
-  appId: '1:626766232035:web:506621582dab103a4d08d6',
+  apiKey: "AIzaSyAF_muk6fFKfvleqleuG4K2z3AgjybfsiI",
+  authDomain: "crwn-clothing-db-757c1.firebaseapp.com",
+  projectId: "crwn-clothing-db-757c1",
+  storageBucket: "crwn-clothing-db-757c1.appspot.com",
+  messagingSenderId: "817247094555",
+  appId: "1:817247094555:web:8cdee82cbc5a1508fdb5be",
 };
 
-const firebaseApp = initializeApp(firebaseConfig);
+
+// const firebaseApp = initializeApp(firebaseConfig);
+ initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
 
